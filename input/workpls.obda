@@ -12,9 +12,5 @@ rdfs:		http://www.w3.org/2000/01/rdf-schema#
 mappingId	MAPID-a72f8c68030143cbae5696153690cad6
 target		:Person/{id} a :Person ; :id {id}^^xsd:integer ; :name {name}^^xsd:string ; :age {age}^^xsd:integer . 
 source		SELECT * FROM "person";
-
-mappingId	MAPID-c44a34acac844c03b4e078a12eae68ff
-target		:Person/{id} a :Person ; :id {id}^^xsd:integer ; :name {name}^^xsd:string ; :age {age}^^xsd:integer . 
-source		select * from "userprofile"
 ]]
 
